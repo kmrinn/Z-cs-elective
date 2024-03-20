@@ -22,13 +22,17 @@ html, body{
 
 }
 
-.menu li {
+.leftbar {
+    color: rgba(244, 235, 208, 1);
     padding-top: 10px;
-    display: flex;
-    float: left;
-    margin-left: 70px;
-   
-   
+    display: inline-block;
+    float: right;
+    font-family: 'K2D', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    justify-content: space-between;
+
 }
 
 .menu li a{
@@ -39,8 +43,7 @@ html, body{
     line-height: 50px;
     display: block;
     height: 100%;
-    font-size: 20px;
-
+    font-size: 30px;
 }
 
 .menu li a :hover{
@@ -52,7 +55,6 @@ html, body{
    margin-bottom: 40px;
    max-height: 90%;
    max-width: 100%
-   left: 90%;
   }
 
 .search{
@@ -61,6 +63,9 @@ html, body{
    align-items: center;
    background: rgba(244, 235, 208, 1);
    border-radius: 28px;
+   outline: none;
+   border: none;
+   background: transparent;
 }
 
 .search_input{
@@ -111,7 +116,7 @@ html, body{
     display: flex;
     padding: 15px;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 40px;
 }   
 
 .logincss li{
@@ -121,3 +126,21 @@ html, body{
     font-style: normal;
     color: rgba(18, 38, 32, 1);
 }
+
+.logincss input{
+    width: 15em;
+}
+.navbar{
+    background-color: rgba(18, 38, 32, 1);
+}
+.topbar ul li{
+    display: inline-block;
+    margin: 0 20px;
+    color: rgba(18, 38, 32, 1);
+}
+
+.topbar ul li a {
+
+    color: rgba(244, 235, 208, 1);
+}
+

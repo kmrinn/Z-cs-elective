@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fonts-->
-    <!--K2D Font-->
+    <!--K2D-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -15,26 +15,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@600&family=K2D:wght@100;600&display=swap" rel="stylesheet">
+    <!--end of fonts-->
     <title>Login</title>
 </head>
 <body>
     <!-- -->  
    
     <header class="navbar">
-        <div class="top-bar tb">
+        <div class="topbar">
             <nav>
-                <ul class ="menu">
+                <ul class ="leftbar">
                 <li><a style="text-decoration:none" href="index.html">HOME</a></li>
-                <li><a style="text-decoration:none" href="shop.html">SHOP</a></li>
                 <li><a style="text-decoration:none" href="#">CATEGORIES</a></li>
-                <li><a href="index.html"><img src="../images/logo.png" alt="logo_image" class="logo"></a></li> 
-                <li>
-                    <form>
-                        <div class="search"></div>
-                        <span class="material-symbols-outlined">search</span>
-                        <input class="search_input" type="search" placeholder="Search">
-                        </form>
-                </li>
+                </ul>
+                <li><a href="index.html"><img src="../images/logo.png" alt="logo_image" class="logo"></a></li>                  
+              
+                <ul class="rightbar"></ul>
                 <li><div class="cart"> <a href="#"></a></div></li>    
                 <li><div class="account"><a href="login.html"></a></div></li>
                 </ul>         
@@ -51,9 +47,9 @@
                <ul>
                 <li><h1 class="login-title">LOGIN</h1></li>
                 <li><h3>Username</h3></li>
-                <li><input type="text" placeholder="Username"><br></li>
+                <li><input class="UN" type="text" placeholder="Username"><br></li>
                 <li><h3>Password</h3></li>
-                <li><input type="password" placeholder="Password" required><br><br></li>
+                <li><input class="PS"type="password" placeholder="Password" required><br><br></li>
                 <li><input type="submit" value="Login"><br></li>
             </ul>
             </form>
