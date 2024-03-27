@@ -12,10 +12,6 @@ html, body{
 
 }
 
-.bottombar{
-display: flex;
-float: ;
-}
 
 /* .leftbar
     color: rgba(244, 235, 208, 1);
@@ -40,10 +36,12 @@ float: ;
 .rightbar{
     display: flex;
     flex-direction: row;
+    align-content: space-between;
+    margin-left: 450px ;
+   
 }
 .rightbar li{
     list-style-type: none;
-   
 }
 
 .home{ 
@@ -70,8 +68,6 @@ float: ;
    margin-bottom: 40px;
    max-height: 90%;
    max-width: 100%;
-   margin-left: 650px;
-
   }
 
 .search{
@@ -126,7 +122,7 @@ float: ;
    border-radius: 25px;
     height: 400px;
     width: 400px;
-    margin-left: 700px;
+    margin-left: 670px;
 }
 
 .logincss{
