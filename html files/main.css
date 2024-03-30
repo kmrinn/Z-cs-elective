@@ -169,10 +169,12 @@ html, body{
 
  ul li a{
     display:block;
-    padding: 10px 10px;
+    margin: 0;
+    padding: 10px;
     text-decoration: none;
     text-align: left;
     font-size: 20px;
+    border-radius: 15px;
 }
 
 ul li ul.dropdown li{
@@ -180,8 +182,10 @@ ul li ul.dropdown li{
 }
 
 ul li ul.dropdown{
+    height: 200px;
     width: 300px;
     background: rgba(18, 38, 32, 1);
+    border-radius: 15px;
     position:absolute;
     z-index: 999;
     display:none;
