@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    font-family: 'K2D', sans-serif;
 }
 
 .navbar{
@@ -35,7 +36,7 @@ html, body{
 
 .rightbar{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-content: space-between;
     margin-left: 450px ;
    
@@ -153,7 +154,43 @@ html, body{
 }
 
 .topbar ul li a {
-
     color: rgba(244, 235, 208, 1);
 }
 
+ .dropdown ul{
+    list-style:none;
+    background: rgba(18, 38, 32, 1);
+}
+
+.dropdown ul li{
+    display: inline-block;
+    position:relative;
+}
+
+ ul li a{
+    display:block;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li{
+    display:block;
+}
+
+ul li ul.dropdown{
+    width: 300px;
+    background: rgba(18, 38, 32, 1);
+    position:absolute;
+    z-index: 999;
+    display:none;
+}
+
+ul li a:hover{
+background: rgba(12, 26, 21, 1);
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
