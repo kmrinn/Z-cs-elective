@@ -7,3 +7,6 @@ Only worked on CSS and login.html file for today, made progress with the navigat
 
  ## March 20, 2024
  I fixed the Login Page's Nav( HOME AND CATEGORY). We are still figuring our Login Page out. The positions of the elements and the logo are still not final but we're working on it. 
+
+## April 2, 2024
+we had a bunch of updates the past few days that havent been put on the readme, but that would be changes to the navigation bar, added a dropdown to the shop category selection, added new html files for the shop files.
