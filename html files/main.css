@@ -13,37 +13,34 @@ html, body{
 
 }
 
-
-/* .leftbar
-    color: rgba(244, 235, 208, 1);
-    font-size: 30px;
-    float: left; */
-/*.menu li a{
-    color: rgba(244, 235, 208, 1);
+.topbar-link {
+    padding-right: 20px;
+    position: relative; 
+    color: rgba(244,235,208,1); 
+    text-decoration: none;
+    padding-right: 40px;
+    margin-right: 40px; 
     font-family: 'K2D', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    line-height: 50px;
-    display: block;
-    height: 100%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-.menu li a :hover{
-    color: rgba(182, 141, 64, 1);
-}*/
 
-
-.rightbar{
+.headerbar{
     display: flex;
     flex-direction:row;
     align-content: space-between;
-    margin-left: 450px ;
+  
    
 }
-.rightbar li{
+.headerbar li{
     list-style-type: none;
 }
+
+.rightbar{
+    float: right;
+    margin-left: 800px;
+}
+
 
 .home{ 
     height: 40px;
@@ -65,11 +62,12 @@ html, body{
 }
 
 .logo{
-   display: block;
-   margin-bottom: 40px;
-   max-height: 90%;
-   max-width: 100%;
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: 20px;
   }
+
 
 .search{
    width: max-content;
@@ -89,8 +87,9 @@ html, body{
 }
 
 .cart{
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
     background-image: url(../images/icons8-add-basket-90.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,12 +97,14 @@ html, body{
 }
 
 .account{
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
+    float: right;
     background-image: url(../images/icons8-test-account-64.png);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover
+    
 }
 
 .showcase{
@@ -119,8 +120,8 @@ html, body{
 {
     display: flex;
     padding-top: 15px;
-   background-color: rgba(182, 141, 64, 1);
-   border-radius: 25px;
+      background-color: rgba(182, 141, 64, 1);
+     border-radius: 25px;
     height: 400px;
     width: 400px;
     margin-left: 650px;
@@ -197,4 +198,16 @@ background: rgba(12, 26, 21, 1);
 
 ul li:hover ul.dropdown{
     display: block;
+}
+
+.arrow-down {
+    position: absolute;
+    top: 50%; 
+    right: 5px; 
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid  rgba(244,235,208,1); 
+    transform: translateY(-50%); 
 }
