@@ -38,7 +38,7 @@ html, body{
 
 .rightbar{
     float: right;
-    margin-left: 800px;
+    margin-left: 820px;
 }
 
 
@@ -131,7 +131,7 @@ html, body{
     display: flex;
     padding: 15px;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 50px;
 }   
 
 .logincss li{
@@ -142,7 +142,7 @@ html, body{
     color: rgba(18, 38, 32, 1);
 }
 
-.logincss input{
+.UN .PS{
     width: 15em;
 }
 .navbar{
@@ -183,7 +183,7 @@ ul li ul.dropdown li{
 }
 
 ul li ul.dropdown{
-    height: 200px;
+    height: 240px;
     width: 300px;
     background: rgba(18, 38, 32, 1);
     border-radius: 15px;
@@ -210,4 +210,9 @@ ul li:hover ul.dropdown{
     border-right: 5px solid transparent;
     border-top: 5px solid  rgba(244,235,208,1); 
     transform: translateY(-50%); 
+}
+
+.login-title{
+    font-family: 'k2d', sans-serif;
+    font-size: 35px;
 }
