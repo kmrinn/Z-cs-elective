@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="loginPage1.css" rel="stylesheet">
+    <title>Landing</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="../images/logo.png">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Shop</a>
+                        <ul class="dropdown">
+                        <li><a href="#">Keyboards</a></li>
+                        <li><a href="#">Switches</a></li>
+                        <li><a href="#">Cases</a></li>
+                        <li><a href="#">Stabilizer</a></li>
+                        <li><a href="#">Lube</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <section class="img-container">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="img-1" src="../images/keyboard pic/lychee g66/image_2024-04-01_141631879.png">
+                    <img id="img-2" src="../images/keyboard pic/monsgeek m1/image_2024-04-01_142411616.png">
+                    <img id="img-3" src="../images/keyboard pic/weikav sugar65/image_2024-04-01_142543069.png">
+                </div>
+                <div class="slider-nav">
+                    <a href="#img-1" ></a>
+                    <a href="#img-2"></a>
+                    <a href="#img-3"></a>
+            </div>
+        </section>
