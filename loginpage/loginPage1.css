@@ -274,8 +274,9 @@ ul li:hover ul.dropdown{
 }
 
 .category-boxes-item img:hover {
-    filter: blur(5px);
+    transform: scale(1.1);
 }
+
 .category-boxes-item img:hover::after {
     content: attr(data-tooltip);
     position: absolute;
@@ -329,6 +330,24 @@ ul li:hover ul.dropdown{
 }
 
 .shop-img img:hover{
+    filter: grayscale(1);
+    transform:scale(1.03);
+}
+
+.img-grid{
+    display: flex;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 7px 7px 0px black;
+    cursor: pointer;
+    margin:10px;
+    transition: 400ms;
+}  
+
+.img-grid img:hover{
     filter: grayscale(1);
     transform:scale(1.03);
 }
@@ -405,3 +424,5 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+
+
